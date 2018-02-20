@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_FOXWsBMYEeiXHObxrBtZUw" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_e2HM8BMYEeiXHObxrBtZUw" name="Photo">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_lzkHQBMYEeiXHObxrBtZUw" name="TAKE PHOTO">
+      <extend xmi:type="uml:Extend" xmi:id="_Ime9gBWTEeiZ_NzFbcfEow" extendedCase="_J0x2cBM_EeiXHObxrBtZUw" extensionLocation="_ImfkkBWTEeiZ_NzFbcfEow"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_HVgiMRNAEeiXHObxrBtZUw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__WZSMRWSEeiZ_NzFbcfEow" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_J0x2cBM_EeiXHObxrBtZUw" name="BROADCAST TO STATION">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_andMoBNDEeiXHObxrBtZUw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_pGcRYRPVEeiXHObxrBtZUw" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ImfkkBWTEeiZ_NzFbcfEow" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_awlI4BNCEeiXHObxrBtZUw" name="STORE DATA">
+      <extend xmi:type="uml:Extend" xmi:id="_-_9hcBWNEeiZ_NzFbcfEow" extendedCase="_5XXhQBWNEeiZ_NzFbcfEow" extensionLocation="__ADBABWNEeiZ_NzFbcfEow"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qi4aMRPVEeiXHObxrBtZUw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VDjK0BPVEeiXHObxrBtZUw" name="RECEIVE DATA">
+      <extend xmi:type="uml:Extend" xmi:id="_qi4aMBPVEeiXHObxrBtZUw" extendedCase="_awlI4BNCEeiXHObxrBtZUw" extensionLocation="_qi4aMRPVEeiXHObxrBtZUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_gqXcABWNEeiZ_NzFbcfEow" name="A* MOVE">
+      <extend xmi:type="uml:Extend" xmi:id="__WZSMBWSEeiZ_NzFbcfEow" extendedCase="_lzkHQBMYEeiXHObxrBtZUw" extensionLocation="__WZSMRWSEeiZ_NzFbcfEow"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_7eTmUBWSEeiZ_NzFbcfEow" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5XXhQBWNEeiZ_NzFbcfEow" name="BROADCAST TO ROVER">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__ADBABWNEeiZ_NzFbcfEow" name="ExtensionPoint1"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_f3XOkBMYEeiXHObxrBtZUw" name="ROVER AGENT"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_xY988BNAEeiXHObxrBtZUw" name="Move">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FG9xkBNBEeiXHObxrBtZUw" name="A* MOVE">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_suW-0BPLEeiXHObxrBtZUw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_h47XQBPUEeiXHObxrBtZUw" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_nQkxYBPUEeiXHObxrBtZUw" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_jB3soBWSEeiZ_NzFbcfEow" name="ExtensionPoint4"/>
+      <include xmi:type="uml:Include" xmi:id="_iuSBABPLEeiXHObxrBtZUw" addition="_7wuTkBNDEeiXHObxrBtZUw"/>
+      <include xmi:type="uml:Include" xmi:id="_GMF9cBPMEeiXHObxrBtZUw" addition="_ARqRQBPKEeiXHObxrBtZUw"/>
+      <include xmi:type="uml:Include" xmi:id="_W-qCEBPUEeiXHObxrBtZUw" addition="_Qf7EEBPUEeiXHObxrBtZUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7wuTkBNDEeiXHObxrBtZUw" name="DETECT OBSTACLE"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ARqRQBPKEeiXHObxrBtZUw" name="POSITION TABLE LOOKUP"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KvsWYBPKEeiXHObxrBtZUw" name="BROADCAST TO STATION">
+      <extend xmi:type="uml:Extend" xmi:id="_UMYfEBWSEeiZ_NzFbcfEow" extendedCase="_XiV3kBPMEeiXHObxrBtZUw" extensionLocation="_UMZGIBWSEeiZ_NzFbcfEow"/>
+      <extend xmi:type="uml:Extend" xmi:id="_jB3FkBWSEeiZ_NzFbcfEow" extendedCase="_FG9xkBNBEeiXHObxrBtZUw" extensionLocation="_jB3soBWSEeiZ_NzFbcfEow"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_MFbIUBPMEeiXHObxrBtZUw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kgHb8BPUEeiXHObxrBtZUw" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fjqgYRWSEeiZ_NzFbcfEow" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_hWiMMBWSEeiZ_NzFbcfEow" name="ExtensionPoint4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XiV3kBPMEeiXHObxrBtZUw" name="TAKE PHOTO">
+      <extend xmi:type="uml:Extend" xmi:id="_nQkKUBPUEeiXHObxrBtZUw" extendedCase="_FG9xkBNBEeiXHObxrBtZUw" extensionLocation="_nQkxYBPUEeiXHObxrBtZUw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_pjyDwBPMEeiXHObxrBtZUw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_CDi-QBPNEeiXHObxrBtZUw" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_UMZGIBWSEeiZ_NzFbcfEow" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Qf7EEBPUEeiXHObxrBtZUw" name="AVOID CONFLICTS"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8u0WgBWTEeiZ_NzFbcfEow" name="RECEIVE DATA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ImLmERWUEeiZ_NzFbcfEow" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-cfZQBWTEeiZ_NzFbcfEow" name="STORE DATA">
+      <extend xmi:type="uml:Extend" xmi:id="_ImLmEBWUEeiZ_NzFbcfEow" extendedCase="_8u0WgBWTEeiZ_NzFbcfEow" extensionLocation="_ImLmERWUEeiZ_NzFbcfEow"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Jd3cARWUEeiZ_NzFbcfEow" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_As9nEBWUEeiZ_NzFbcfEow" name="BROADCAST TO ROVER">
+      <extend xmi:type="uml:Extend" xmi:id="_Jd3cABWUEeiZ_NzFbcfEow" extendedCase="_-cfZQBWTEeiZ_NzFbcfEow" extensionLocation="_Jd3cARWUEeiZ_NzFbcfEow"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_C-8VIBNBEeiXHObxrBtZUw" name="ROVER AGENT"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ZmyewBPQEeiXHObxrBtZUw" name="Central Station ">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_eq0ZUBPQEeiXHObxrBtZUw" name="ROVER POSITIONS">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lzqz8BWUEeiZ_NzFbcfEow" general="_ah6_YBPSEeiXHObxrBtZUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9EOLQBPREeiXHObxrBtZUw" name="ROVER PHOTOS">
+      <generalization xmi:type="uml:Generalization" xmi:id="_m38UYBWUEeiZ_NzFbcfEow" general="_ah6_YBPSEeiXHObxrBtZUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ah6_YBPSEeiXHObxrBtZUw" name="STORE DATA">
+      <extend xmi:type="uml:Extend" xmi:id="_yLe3cBWPEeiZ_NzFbcfEow" extendedCase="_iE_8EBWPEeiZ_NzFbcfEow" extensionLocation="_yLfegBWPEeiZ_NzFbcfEow"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_DPhnQRWQEeiZ_NzFbcfEow" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ebRPgBPSEeiXHObxrBtZUw" name="BROADCAST TO ROVER">
+      <extend xmi:type="uml:Extend" xmi:id="_DPhnQBWQEeiZ_NzFbcfEow" extendedCase="_ah6_YBPSEeiXHObxrBtZUw" extensionLocation="_DPhnQRWQEeiZ_NzFbcfEow"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ko-u8BPSEeiXHObxrBtZUw" name="GOAL STATUS">
+      <generalization xmi:type="uml:Generalization" xmi:id="_n0pNMBWUEeiZ_NzFbcfEow" general="_ah6_YBPSEeiXHObxrBtZUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iE_8EBWPEeiZ_NzFbcfEow" name="RECEIVE DATA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yLfegBWPEeiZ_NzFbcfEow" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Uuvd4BWVEeiZ_NzFbcfEow" name="ENVIROMENT MAP">
+      <generalization xmi:type="uml:Generalization" xmi:id="_gfB1EBWVEeiZ_NzFbcfEow" general="_ah6_YBPSEeiXHObxrBtZUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qVOeIBWVEeiZ_NzFbcfEow" name="TAKE PHOTO">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_AnYRkRWWEeiZ_NzFbcfEow" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_52kFEBWVEeiZ_NzFbcfEow" addition="_tFdxIBWVEeiZ_NzFbcfEow"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tFdxIBWVEeiZ_NzFbcfEow" name="A* MOVE">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_BbTB0BWWEeiZ_NzFbcfEow" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vh7zkBWVEeiZ_NzFbcfEow" name="BROADCAST TO STATION">
+      <extend xmi:type="uml:Extend" xmi:id="_AnYRkBWWEeiZ_NzFbcfEow" extendedCase="_qVOeIBWVEeiZ_NzFbcfEow" extensionLocation="_AnYRkRWWEeiZ_NzFbcfEow"/>
+      <extend xmi:type="uml:Extend" xmi:id="_BbSawBWWEeiZ_NzFbcfEow" extendedCase="_tFdxIBWVEeiZ_NzFbcfEow" extensionLocation="_BbTB0BWWEeiZ_NzFbcfEow"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_deMOIBPQEeiXHObxrBtZUw" name="CENTRAL STATION"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_vqN5sBPQEeiXHObxrBtZUw" name="ROVER AGENT"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_w3N4UBPQEeiXHObxrBtZUw" name="Broadcast">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yrMXYBPQEeiXHObxrBtZUw" name="TAKE PHOTO">
+      <include xmi:type="uml:Include" xmi:id="_g9hmUBPREeiXHObxrBtZUw" addition="_0vwQIBPQEeiXHObxrBtZUw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0vwQIBPQEeiXHObxrBtZUw" name="A* MOVE"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_D7njIBWOEeiZ_NzFbcfEow" name="CENTRAL STATION"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DZY4cBWREeiZ_NzFbcfEow" memberEnd="_DZg0QBWREeiZ_NzFbcfEow _DZiCYBWREeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DZe_EBWREeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DZfmIBWREeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DZg0QBWREeiZ_NzFbcfEow" name="take photo" type="_yrMXYBPQEeiXHObxrBtZUw" association="_DZY4cBWREeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DZiCYBWREeiZ_NzFbcfEow" name="rover agent" type="_vqN5sBPQEeiXHObxrBtZUw" association="_DZY4cBWREeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ERWbMBWREeiZ_NzFbcfEow" memberEnd="_ERYQYhWREeiZ_NzFbcfEow _ERY3cBWREeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ERYQYBWREeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ERYQYRWREeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ERYQYhWREeiZ_NzFbcfEow" name="a* move" type="_0vwQIBPQEeiXHObxrBtZUw" association="_ERWbMBWREeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ERY3cBWREeiZ_NzFbcfEow" name="rover agent" type="_vqN5sBPQEeiXHObxrBtZUw" association="_ERWbMBWREeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LpxaQBWREeiZ_NzFbcfEow" memberEnd="_LpyBUhWREeiZ_NzFbcfEow _LpyoYBWREeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LpyBUBWREeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LpyBURWREeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LpyBUhWREeiZ_NzFbcfEow" name="broadcast to rover" type="_ebRPgBPSEeiXHObxrBtZUw" association="_LpxaQBWREeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LpyoYBWREeiZ_NzFbcfEow" name="central station" type="_deMOIBPQEeiXHObxrBtZUw" association="_LpxaQBWREeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ow6xYBWREeiZ_NzFbcfEow" memberEnd="_Ow7YchWREeiZ_NzFbcfEow _Ow7YcxWREeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ow7YcBWREeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ow7YcRWREeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ow7YchWREeiZ_NzFbcfEow" name="store data" type="_ah6_YBPSEeiXHObxrBtZUw" association="_Ow6xYBWREeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ow7YcxWREeiZ_NzFbcfEow" name="central station" type="_deMOIBPQEeiXHObxrBtZUw" association="_Ow6xYBWREeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PoItQBWREeiZ_NzFbcfEow" memberEnd="_PoJ7YhWREeiZ_NzFbcfEow _PoJ7YxWREeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PoJ7YBWREeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PoJ7YRWREeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PoJ7YhWREeiZ_NzFbcfEow" name="receive data" type="_iE_8EBWPEeiZ_NzFbcfEow" association="_PoItQBWREeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PoJ7YxWREeiZ_NzFbcfEow" name="central station" type="_deMOIBPQEeiXHObxrBtZUw" association="_PoItQBWREeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YgNhMBWREeiZ_NzFbcfEow" memberEnd="_YgPWYhWREeiZ_NzFbcfEow _YgP9cBWREeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YgPWYBWREeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YgPWYRWREeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YgPWYhWREeiZ_NzFbcfEow" name="a* move" type="_FG9xkBNBEeiXHObxrBtZUw" association="_YgNhMBWREeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YgP9cBWREeiZ_NzFbcfEow" name="rover agent" type="_C-8VIBNBEeiXHObxrBtZUw" association="_YgNhMBWREeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZgZL0BWREeiZ_NzFbcfEow" memberEnd="_ZgaZ8RWREeiZ_NzFbcfEow _ZgaZ8hWREeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZgZy4BWREeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZgaZ8BWREeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZgaZ8RWREeiZ_NzFbcfEow" name="broadcast to station" type="_KvsWYBPKEeiXHObxrBtZUw" association="_ZgZL0BWREeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZgaZ8hWREeiZ_NzFbcfEow" name="rover agent" type="_C-8VIBNBEeiXHObxrBtZUw" association="_ZgZL0BWREeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fpPZYBWREeiZ_NzFbcfEow" memberEnd="_fpQAchWREeiZ_NzFbcfEow _fpQAcxWREeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fpQAcBWREeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fpQAcRWREeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fpQAchWREeiZ_NzFbcfEow" name="take photo" type="_XiV3kBPMEeiXHObxrBtZUw" association="_fpPZYBWREeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fpQAcxWREeiZ_NzFbcfEow" name="rover agent" type="_C-8VIBNBEeiXHObxrBtZUw" association="_fpPZYBWREeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zFT7EBWSEeiZ_NzFbcfEow" memberEnd="_zFUiIhWSEeiZ_NzFbcfEow _zFVJMBWSEeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zFUiIBWSEeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zFUiIRWSEeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zFUiIhWSEeiZ_NzFbcfEow" name="take photo" type="_lzkHQBMYEeiXHObxrBtZUw" association="_zFT7EBWSEeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zFVJMBWSEeiZ_NzFbcfEow" name="rover agent" type="_f3XOkBMYEeiXHObxrBtZUw" association="_zFT7EBWSEeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1cGzUBWSEeiZ_NzFbcfEow" memberEnd="_1cHaYhWSEeiZ_NzFbcfEow _1cIBcBWSEeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1cHaYBWSEeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1cHaYRWSEeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1cHaYhWSEeiZ_NzFbcfEow" name="broadcast to station" type="_J0x2cBM_EeiXHObxrBtZUw" association="_1cGzUBWSEeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1cIBcBWSEeiZ_NzFbcfEow" name="rover agent" type="_f3XOkBMYEeiXHObxrBtZUw" association="_1cGzUBWSEeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bgQf4BWTEeiZ_NzFbcfEow" memberEnd="_bgRG8hWTEeiZ_NzFbcfEow _bgRuABWTEeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bgRG8BWTEeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bgRG8RWTEeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bgRG8hWTEeiZ_NzFbcfEow" name="receive data" type="_VDjK0BPVEeiXHObxrBtZUw" association="_bgQf4BWTEeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bgRuABWTEeiZ_NzFbcfEow" name="central station" type="_D7njIBWOEeiZ_NzFbcfEow" association="_bgQf4BWTEeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_QHolUBWUEeiZ_NzFbcfEow" name="CENTRAL STATION"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Uj4HIBWUEeiZ_NzFbcfEow" memberEnd="_Uj5VQhWUEeiZ_NzFbcfEow _Uj5VQxWUEeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Uj5VQBWUEeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Uj5VQRWUEeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Uj5VQhWUEeiZ_NzFbcfEow" name="receive data" type="_8u0WgBWTEeiZ_NzFbcfEow" association="_Uj4HIBWUEeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Uj5VQxWUEeiZ_NzFbcfEow" name="central station" type="_QHolUBWUEeiZ_NzFbcfEow" association="_Uj4HIBWUEeiZ_NzFbcfEow"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MwTAoBWVEeiZ_NzFbcfEow" name="ROVER AGENT"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GkfwQBWWEeiZ_NzFbcfEow" memberEnd="_Gkg-YRWWEeiZ_NzFbcfEow _Gkg-YhWWEeiZ_NzFbcfEow">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GkgXUBWWEeiZ_NzFbcfEow" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gkg-YBWWEeiZ_NzFbcfEow" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Gkg-YRWWEeiZ_NzFbcfEow" name="take photo" type="_qVOeIBWVEeiZ_NzFbcfEow" association="_GkfwQBWWEeiZ_NzFbcfEow"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Gkg-YhWWEeiZ_NzFbcfEow" name="rover agent" type="_MwTAoBWVEeiZ_NzFbcfEow" association="_GkfwQBWWEeiZ_NzFbcfEow"/>
+  </packagedElement>
+</uml:Model>
